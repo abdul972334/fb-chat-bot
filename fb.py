@@ -542,7 +542,37 @@ class ChatBot(Client):
             elif ("gn" in msg):
                 reply = "Good night🌃🌙 and Have a ghost dream"
                 sendMsg()
-
+            elif ("Eaa" in msg):
+                reply = "Hmm"
+                sendMsg()
+            elif ("ke xa haalkhabar" in msg):
+                reply = "Thikai xa afno van"
+                sendMsg()
+            elif ("khana vayo" in msg):
+                reply = "Hmm vayo ani tmro"
+                sendMsg()
+            elif ("good afternoon" in msg or "ga" in msg or "goodafternoon" in msg):
+                reply = "Good afternoon☺☺ have a good day"
+                sendMsg()
+            elif ("good evening" in msg or "ge" in msg or "Good eveninng" in msg or "Good Evening" in msg):
+                reply = "Good Evening☺☺ Have a nice day"
+                sendMSg()
+            elif ("Oi" in msg or "oi" in msg or "Oii" in msg):
+                reply = "Hjr"
+                sendMsg()
+            elif ("What are you doing" in msg or "what are you doing" in msg):
+                reply = "Nothing, just chating with you haha☺"
+                sendMsg()
+            elif ("ke gardai xau" in msg or "kathi karai xi " in msg):
+                reply = "kehi nai just tmi sanga chat gardai xu haha ☺☺"
+                sendMsg()
+            elif ("tmro gf ko xa" in msg or "who is your gf" in msg):
+                reply = "tmi nai ta xau , thah xaina tmi lai"
+                sendMsg()
+            elif ("I love you" in msg or "i love you" in msg or "i love u" in msg or "143" in msg):
+                reply = "if you are very pretty girl or beautiful then i love you too hehe ☺☺'
+                sendMsg()
+                
         except Exception as e:
             print(e)
 
