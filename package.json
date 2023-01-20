@@ -24,5 +24,4 @@
 			"description": "put your fb cookies xs value here",
 			"required": "True"
 		}
-	},
-}
+	}
