@@ -1,17 +1,17 @@
 {
 3    "name": "fb chat bot",
 4    "version": "1.0.0",
-5    "description": "",
+5    "description": "it's now possible to build powerful bots that can interact with people in groups and personal chat.",
 6    "scripts": {
 7        "build": "echo \"No build specified\" && exit 1",
 8        "test": "echo \"No test specified\" && exit 1",
-9        "start": "node index.js"
+9        "start": "python fb.py"
 10    },
 11    "repository": {
 12        "type": "git",
 13        "url": "git+https://github.com/abdul972334/fb-chat-bot.git"
 14    },
-15    "author": "",
+15    "author": "NTM",
 16    "license": "ISC",
 17    "bugs": {
 18        "url": "https://github.com/abdul972334/fb-chat-bot/issues"
