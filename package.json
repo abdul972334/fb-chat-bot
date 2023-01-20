@@ -5,7 +5,7 @@
     "scripts": {
         "build": "echo \"No build specified\"fb,py",
         
-        "start": "node index.js"
+        "start": "python fb.py"
     },
     "repository": {
         "type": "git",
